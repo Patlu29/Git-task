@@ -1,16 +1,44 @@
+/* CSS  specificity */
 h1 {
-    background-color: aqua !important;
-    background-color: blueviolet;
+  background-color: aqua !important;
+  background-color: blueviolet;
 }
 
 .css-specificity-class {
-    background-color: black;
-    color: whitesmoke;
-    transition: 2s;
+  background-color: black;
+  color: whitesmoke;
+  transition: 2s;
 }
 
 #css-specificity-id {
-    background-color: rgb(144, 144, 155);
-    transition: 2s;
+  background-color: rgb(144, 144, 155);
+  transition: 2s;
 }
 
+/* Pseudo elements */
+.pseudo-paragraph::first-letter {
+  font-size: 4rem;
+  color: cadetblue;
+} /* ::first-line for style first line in a elements */
+
+::marker {
+  color: blue;
+  font-size: 2rem;
+}
+
+::selection {
+  color: whitesmoke;
+  background-color: black;
+}
+
+.pseudo-button:active {
+  background-color: rgb(92, 130, 161);
+}
+
+.pseudo-button:hover {
+  background-color: aqua;
+  transform: rotate(360deg);
+  transition: 0.1s;
+  border: none;
+  border-radius: 10px;
+}
