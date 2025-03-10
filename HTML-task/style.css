@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+div {
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+.margin-box {
+    background-color: rgb(107, 150, 150);
+    margin: 10% 30% 0 30% ;
+    padding: 5%;
+}
+
+.border-box {
+    background-color: aquamarine;
+    padding: 10%;
+}
+
+.padding-box {
+    background-color: rgb(97, 146, 146);
+    padding: 10%;
+}
+
+.content-box {
+    background-color: rgb(58, 85, 85);
+    padding: 10%;
+}
