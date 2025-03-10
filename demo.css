@@ -48,6 +48,7 @@ h1 {
   border-radius: 10px;
 }
 
+/* Nav-bar */
 .navbar {
     color: rgb(255, 255, 255) !important ;
     background-color: rgb(137, 216, 130) !important;
@@ -69,4 +70,33 @@ h1 {
 
 .nav-list-attributes:hover {
     background-color: rgb(40, 49, 41);
+}
+
+/* media quries and Responsive design */
+@media screen and (max-width: 600px) {
+    body {
+        background-color: black;
+        color: white;
+    }
+    .css-specificity, .pseudo-elements{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .nav-list-attributes {
+        float: none !important;
+    }
+    .image-container {
+        content: url(/push_yourself.jpeg);
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    body {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    
 }
