@@ -1,3 +1,8 @@
+* {
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
 /* CSS  specificity */
 h1 {
   background-color: aqua !important;
@@ -41,4 +46,27 @@ h1 {
   transition: 0.1s;
   border: none;
   border-radius: 10px;
+}
+
+.navbar {
+    color: rgb(255, 255, 255) !important ;
+    background-color: rgb(137, 216, 130) !important;
+}
+
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(90, 99, 91);
+    overflow: hidden;
+}
+
+.nav-list-attributes {
+    float: left;
+    padding: 10px 15px;
+    color: aquamarine;
+}
+
+.nav-list-attributes:hover {
+    background-color: rgb(40, 49, 41);
 }
