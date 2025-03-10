@@ -1,0 +1,16 @@
+h1 {
+    background-color: aqua !important;
+    background-color: blueviolet;
+}
+
+.css-specificity-class {
+    background-color: black;
+    color: whitesmoke;
+    transition: 2s;
+}
+
+#css-specificity-id {
+    background-color: rgb(144, 144, 155);
+    transition: 2s;
+}
+
